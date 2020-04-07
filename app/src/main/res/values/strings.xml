@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Masak Kuy</string>
+    <string name="judul">Mau Masak Apa?</string>
+
+    <string-array name="Sayurutama">
+        <item>KANGKUNG</item>
+        <item>WORTEL</item>
+        <item>BROKOLI</item>
+        <item>BAYAM</item>
+        <item>JAGUNG</item>
+    </string-array>
+
+    <string-array name="sayurtambah1">
+        <item>LOMBOK</item>
+        <item>BAWANG MERAH</item>
+        <item>BAWANG PUTIH</item>
+        <item>MERICA</item>
+        <item>GARAM</item>
+        <item>GULA</item>
+        <item>LADA</item>
+    </string-array>
+    <string-array name="sayurtambah2">
+        <item>LOMBOK</item>
+        <item>BAWANG MERAH</item>
+        <item>BAWANG PUTIH</item>
+        <item>MERICA</item>
+        <item>GARAM</item>
+        <item>GULA</item>
+        <item>LADA</item>
+    </string-array>
+    <string-array name="sayurtambah3">
+        <item>LOMBOK</item>
+        <item>BAWANG MERAH</item>
+        <item>BAWANG PUTIH</item>
+        <item>MERICA</item>
+        <item>GARAM</item>
+        <item>GULA</item>
+        <item>LADA</item>
+    </string-array>
+
+
+    <string-array name="laukutama">
+        <item>TELUR</item>
+        <item>TEMPE</item>
+        <item>TAHU</item>
+        <item>AYAM</item>
+        <item>IKAN</item>
+        <item>DAGING</item>
+    </string-array>
+
+    <string-array name="lauktambah1">
+        <item>LOMBOK</item>
+        <item>BAWANG MERAH</item>
+        <item>BAWANG PUTIH</item>
+        <item>MERICA</item>
+        <item>GARAM</item>
+        <item>GULA</item>
+        <item>KECAP</item>
+    </string-array>
+    <string-array name="lauktambah2">
+        <item>LOMBOK</item>
+        <item>BAWANG MERAH</item>
+        <item>BAWANG PUTIH</item>
+        <item>MERICA</item>
+        <item>GARAM</item>
+        <item>GULA</item>
+        <item>KECAP</item>
+    </string-array>
+    <string-array name="lauktambah3">
+        <item>LOMBOK</item>
+        <item>BAWANG MERAH</item>
+        <item>BAWANG PUTIH</item>
+        <item>MERICA</item>
+        <item>GARAM</item>
+        <item>GULA</item>
+        <item>KECAP</item>
+    </string-array>
+</resources>
