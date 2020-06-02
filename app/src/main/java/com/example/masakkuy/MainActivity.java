@@ -25,4 +25,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, bahansayur.class);
         startActivity(intent);
     }
+    public void pindahGakKanggo(View view) {
+        Intent intent = new Intent(MainActivity.this, bahansayur.class);
+        startActivity(intent);
+    }
 }
