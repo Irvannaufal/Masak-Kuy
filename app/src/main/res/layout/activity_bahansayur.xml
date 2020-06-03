@@ -29,7 +29,8 @@
                     android:layout_height="203dp"
                     android:src="@drawable/wortel_utama"
                     app:layout_column="0"
-                    app:layout_row="0" />
+                    app:layout_row="0"
+                    android:onClick="pindahSayur_Wortel" />
 
                 <ImageView
                     android:id="@+id/jagung_utama"
@@ -37,7 +38,8 @@
                     android:layout_height="203dp"
                     app:layout_column="1"
                     app:layout_row="0"
-                    app:srcCompat="@drawable/jagung_utama" />
+                    app:srcCompat="@drawable/jagung_utama"
+                    android:onClick="pindahSayur_Jagung" />
 
                 <ImageView
                     android:id="@+id/sawi_utama"
@@ -45,7 +47,8 @@
                     android:layout_height="203dp"
                     app:layout_column="0"
                     app:layout_row="1"
-                    app:srcCompat="@drawable/sawi_utama" />
+                    app:srcCompat="@drawable/sawi_utama"
+                    android:onClick="pindahSayur_Sawi" />
 
                 <ImageView
                     android:id="@+id/brokoli_utama"
@@ -53,31 +56,36 @@
                     android:layout_height="203dp"
                     app:layout_column="1"
                     app:layout_row="1"
-                    app:srcCompat="@drawable/brokoli_utama" />
+                    app:srcCompat="@drawable/brokoli_utama"
+                    android:onClick="pindahSayur_Brokoli" />
 
                 <ImageView
                     android:id="@+id/kangkung_utama"
                     android:layout_width="203dp"
                     android:layout_height="203dp"
-                    app:srcCompat="@drawable/kangkung_utama" />
+                    app:srcCompat="@drawable/kangkung_utama"
+                    android:onClick="pindahSayur_Kangkung" />
 
                 <ImageView
                     android:id="@+id/bayam_utama"
                     android:layout_width="203dp"
                     android:layout_height="203dp"
-                    app:srcCompat="@drawable/bayam_utama" />
+                    app:srcCompat="@drawable/bayam_utama"
+                    android:onClick="pindahSayur_Bayam" />
 
                 <ImageView
                     android:id="@+id/cumi_utama"
                     android:layout_width="203dp"
                     android:layout_height="203dp"
-                    app:srcCompat="@drawable/jamur_utama" />
+                    app:srcCompat="@drawable/jamur_utama"
+                    android:onClick="pindahSayur_Jamur" />
 
                 <ImageView
                     android:id="@+id/tempe_utama"
                     android:layout_width="203dp"
                     android:layout_height="203dp"
-                    app:srcCompat="@drawable/terung_utama" />
+                    app:srcCompat="@drawable/terung_utama"
+                    android:onClick="pindahSayur_Terung" />
 
             </androidx.gridlayout.widget.GridLayout>
         </LinearLayout>
