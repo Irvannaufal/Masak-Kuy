@@ -36,83 +36,84 @@ public class bahansayur_suggestion extends AppCompatActivity {
         //  Jika 'WORTEL' maka isi dengan resep berbahan utama Wortel.
         if (onClikSayur.equalsIgnoreCase("wortel")){
             nama_sayur = new String[] {
-                    "Wortel","Telur"
+                    "Sop Wortel","Nugget Wortel","Wortel Goreng","Kroket Wortel","Tumis Wortel"
             };
             desc_sayur = new String[]{
-                    "Wortel Desc","Telur Goreng Desc"
+                    "Sop Wortel Desc","Nugget Wortel Desc","Wortel Goreng Desc","Kroket Wortel Desc","Tumis Wortel Desc"
             };
             img_sayur = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.sop_wortel),Integer.toString(R.drawable.nugget_wortel),Integer.toString(R.drawable.wortel_goreng),
+                    Integer.toString(R.drawable.kroket_kentang_wortel),Integer.toString(R.drawable.tumis_wortel)
             };
         } else if (onClikSayur.equalsIgnoreCase("jagung")){
             nama_sayur = new String[] {
-                    "Jagung","Ayam"
+                    "Oseng Oseng Jagung"
             };
             desc_sayur = new String[]{
-                    "Jagung Desc","Telur Goreng Desc"
+                    "Oseng Oseng Jagung Desc"
             };
             img_sayur = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.oseng_oseng_jagung)
             };
         } else if (onClikSayur.equalsIgnoreCase("sawi")){
             nama_sayur = new String[] {
-                    "Sawi","Telur"
+                    "Tumis Sawi"
             };
             desc_sayur = new String[]{
-                    "Sawi Desc","Telur Goreng Desc"
+                    "Tumis Sawi Desc"
             };
             img_sayur = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.tumis_sawi)
             };
         } else if (onClikSayur.equalsIgnoreCase("brokoli")){
             nama_sayur = new String[] {
-                    "Brokoli","Telur"
+                    "Cah Brokoli"
             };
             desc_sayur = new String[]{
-                    "Brokoli Desc","Telur Goreng Desc"
+                    "Cah Brokoli Desc"
             };
             img_sayur = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.cah_brokoli)
             };
         } else if (onClikSayur.equalsIgnoreCase("kangkung")){
             nama_sayur = new String[] {
-                    "Kangkung","Telur"
+                    "Cah Kangkung"
             };
             desc_sayur = new String[]{
-                    "Kangkung Desc","Telur Goreng Desc"
+                    "Cah Kangkung Desc"
             };
             img_sayur = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.cah_kangkung)
             };
         } else if (onClikSayur.equalsIgnoreCase("bayam")){
             nama_sayur = new String[] {
-                    "Bayam","Telur"
+                    "Tumis Bayam Tomat"
             };
             desc_sayur = new String[]{
-                    "Bayam Desc","Telur Goreng Desc"
+                    "Tumis Bayam Tomat Desc"
             };
             img_sayur = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.tumis_bayam_tomat)
             };
         } else if (onClikSayur.equalsIgnoreCase("jamur")){
             nama_sayur = new String[] {
-                    "Jamur","Telur"
+                    "Tumis Jamur"
             };
             desc_sayur = new String[]{
-                    "Jamur Desc","Telur Goreng Desc"
+                    "Tumis Jamur Desc"
             };
             img_sayur = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.tumis_jamur)
             };
         } else if (onClikSayur.equalsIgnoreCase("terung")){
             nama_sayur = new String[] {
-                    "Terung","Telur"
+                    "Balado Terong"
             };
             desc_sayur = new String[]{
-                    "Terung Desc","Telur Goreng Desc"
+                    "Balado Terong Desc"
             };
             img_sayur = new String[]{
-                    Integer.toString(R.drawable.ayam_resep),Integer.toString(R.drawable.telur_resep)
+                    Integer.toString(R.drawable.balado_terong)
             };
         }
 
