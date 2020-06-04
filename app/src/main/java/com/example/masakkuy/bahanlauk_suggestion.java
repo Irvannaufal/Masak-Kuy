@@ -126,8 +126,8 @@ public class bahanlauk_suggestion extends AppCompatActivity {
                 Intent a = new Intent(getApplicationContext(), bahanlauk_resep.class);
                 //kirimkan parameter
                 a.putExtra("Nama", nama_lauk[position]);
-                a.putExtra("Gambar", desc_lauk[position]);
-                a.putExtra("Deskripsi", img_lauk[position]);
+                a.putExtra("Deskripsi", desc_lauk[position]);
+                a.putExtra("Gambar", img_lauk[position]);
 
                 //kirimkan ke detail.java
                 startActivity(a);

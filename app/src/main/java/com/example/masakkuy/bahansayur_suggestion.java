@@ -125,8 +125,8 @@ public class bahansayur_suggestion extends AppCompatActivity {
                 Intent a = new Intent(getApplicationContext(), bahansayur_resep.class);
                 //kirimkan parameter
                 a.putExtra("Nama", nama_sayur[position]);
-                a.putExtra("Gambar", desc_sayur[position]);
-                a.putExtra("Deskripsi", img_sayur[position]);
+                a.putExtra("Deskripsi", desc_sayur[position]);
+                a.putExtra("Gambar", img_sayur[position]);
 
                 //kirimkan ke detail.java
                 startActivity(a);
